@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YorubaModelML", "YorubaModelML\YorubaModelML.csproj", "{B2C9CDF3-C3E8-492F-A34E-7EC16115FC92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLTest.Android", "MLTest\MLTest.Android\MLTest.Android.csproj", "{02340236-6175-4110-95CA-30CC25737BCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLTest", "MLTest\MLTest\MLTest.csproj", "{13C4E4B1-18A1-40E0-BCAF-549DBD90A541}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaYorubaPrediction", "LambdaYorubaPrediction\LambdaYorubaPrediction.csproj", "{567A1E39-8B99-454C-BD4E-2263660979F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YorubaPredictionAPI", "YorubaPredictionAPI\YorubaPredictionAPI.csproj", "{14D2360E-FF9F-497B-97F1-70C3D7785963}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2C9CDF3-C3E8-492F-A34E-7EC16115FC92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C9CDF3-C3E8-492F-A34E-7EC16115FC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C9CDF3-C3E8-492F-A34E-7EC16115FC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C9CDF3-C3E8-492F-A34E-7EC16115FC92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02340236-6175-4110-95CA-30CC25737BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02340236-6175-4110-95CA-30CC25737BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02340236-6175-4110-95CA-30CC25737BCF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{02340236-6175-4110-95CA-30CC25737BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02340236-6175-4110-95CA-30CC25737BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02340236-6175-4110-95CA-30CC25737BCF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{13C4E4B1-18A1-40E0-BCAF-549DBD90A541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C4E4B1-18A1-40E0-BCAF-549DBD90A541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C4E4B1-18A1-40E0-BCAF-549DBD90A541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C4E4B1-18A1-40E0-BCAF-549DBD90A541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{567A1E39-8B99-454C-BD4E-2263660979F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{567A1E39-8B99-454C-BD4E-2263660979F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{567A1E39-8B99-454C-BD4E-2263660979F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{567A1E39-8B99-454C-BD4E-2263660979F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14D2360E-FF9F-497B-97F1-70C3D7785963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D2360E-FF9F-497B-97F1-70C3D7785963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D2360E-FF9F-497B-97F1-70C3D7785963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14D2360E-FF9F-497B-97F1-70C3D7785963}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {816A6262-32BF-4A50-8AA5-32AA635BD0FE}
+	EndGlobalSection
+EndGlobal

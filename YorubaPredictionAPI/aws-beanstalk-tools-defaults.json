@@ -1,0 +1,20 @@
+
+{
+    "region" : "us-west-2",
+    "configuration" : "Debug",
+    "framework"     : "netcoreapp3.1",
+    "self-contained" : false,
+    "application"    : "YorubaPredictionAPI",
+    "environment"    : "YorubaPredictionAPI-dev",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "",
+    "solution-stack"       : "64bit Amazon Linux 2 v1.0.0 running .NET Core",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "yorubapredictionapi-dev",
+    "instance-type"        : "t3a.medium",
+    "key-pair"             : "fbstart",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "nginx"
+}
